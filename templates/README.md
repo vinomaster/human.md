@@ -1,8 +1,15 @@
 # Template Index
 
-What `bootstrap.sh` does with each file. "Copy" means written once and never
-touched again. "Append" means merged into a file the target repo already
-has (and skipped if that file doesn't exist yet — see
+Every file `bootstrap.sh` can create, in one place: which tier unlocks it,
+exactly where it lands in your repo, whether it's a fresh copy or gets
+merged into a file you already have, and whether it should be gitignored.
+Read this before you run the script if you want to know precisely what
+you're about to get — or use it as the map when you're customizing a tier
+or writing a new template of your own.
+
+"Copy" means written once and never touched again. "Append" means merged
+into a file the target repo already has (and skipped if that file doesn't
+exist yet — see
 [../METHODOLOGY.md](../METHODOLOGY.md#part-7--practical-recommendation-by-team-size)).
 
 | File                             | Tier            | Destination                          | Mode   | Gitignored? |
