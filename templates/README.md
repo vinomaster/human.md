@@ -17,8 +17,6 @@ exist yet — see
 | `agent-persona-attribution.md.tpl`| solo            | `[persona-file]` (default `CLAUDE.md`)| append | no          |
 | `commit_template.md`              | solo            | `.github/commit_template.md`          | copy   | no          |
 | `README-acknowledgement.md.tpl`   | solo            | `README.md`                           | append | no          |
-| `../.markdownlint.json`           | solo            | `.markdownlint.json`                  | copy   | no          |
-| `.markdownlint.json`              | solo            | `.github/.markdownlint.json`          | copy   | no          |
 | `pull_request_template.md`        | small-team      | `.github/pull_request_template.md`    | copy   | no          |
 | `CONTRIBUTING.md.tpl`             | small-team      | `CONTRIBUTING.md`                     | copy   | no          |
 | `HUMAN.md.tpl`                    | small-team      | `docs/team/HUMAN.md`                  | copy   | **yes**     |
@@ -34,6 +32,11 @@ exist yet — see
 accumulate PII (your name, availability pattern, calibration history) and
 are instance-specific, not something to publish or reuse verbatim across
 projects. Every other file here is meant to be committed.
+
+`commit_template.md` and `pull_request_template.md` open with a
+`<!-- markdownlint-disable-file MD041 -->` comment, since neither is meant
+to start with a top-level heading. That's a self-contained fix scoped to
+those two files — no separate lint config to maintain or explain.
 
 Placeholders filled by `bootstrap.sh --model-id=... --human-name=... --persona-file=...`:
 `[model-id]`, `[Name]`, `[Your Name]`, `[persona-file]` (default `CLAUDE.md`,

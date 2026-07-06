@@ -524,11 +524,13 @@ skipped, with a note, if those files don't exist yet in the target repo.
 `.gitignore` is the exception: it holds no project prose, so
 `docs/team/HUMAN.md` and `docs/team/team-state.md` are gitignored by creating
 the file if needed rather than skipping — leaving PII-bearing files
-untracked-but-not-ignored would defeat the point. From the `solo` tier
-onward, the script also copies this directory's `.markdownlint.json` (and
-the `.github/`-scoped override) into the target repo, since
-`commit_template.md` and `pull_request_template.md` need `MD041` disabled to
-lint clean as partial documents.
+untracked-but-not-ignored would defeat the point.
+
+The script doesn't manage lint configuration for the target repo — that's
+none of its business. `commit_template.md` and `pull_request_template.md`
+carry their own `<!-- markdownlint-disable-file MD041 -->` comment for
+teams that do lint their markdown, since neither file is meant to open
+with a heading.
 
 ---
 

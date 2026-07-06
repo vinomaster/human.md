@@ -167,8 +167,6 @@ stage_solo() {
   append_if_absent "$TARGET/$PERSONA_FILE" "## Attribution" "$TEMPLATES_DIR/agent-persona-attribution.md.tpl"
   copy_if_absent "$TEMPLATES_DIR/commit_template.md" "$TARGET/.github/commit_template.md"
   append_if_absent "$TARGET/README.md" "## Acknowledgement" "$TEMPLATES_DIR/README-acknowledgement.md.tpl"
-  copy_if_absent "$SCRIPT_DIR/.markdownlint.json" "$TARGET/.markdownlint.json"
-  copy_if_absent "$TEMPLATES_DIR/.markdownlint.json" "$TARGET/.github/.markdownlint.json"
 }
 
 stage_small_team() {
