@@ -109,18 +109,18 @@ A well-maintained set of these documents is not a compliance exercise. It's a re
 
 *(Enterprise / regulated-industry tier — adapted from the [`human.md`](https://github.com/vinomaster/human.md) methodology referenced in Section 5.)*
 
-- [ ] Persona file (`CLAUDE.md`, `AGENTS.md`, etc.) defines agent persona and constraints
-- [ ] `HUMAN.md` defines human role and review commitments
-- [ ] `team-state.md` exists and is updated regularly
-- [ ] `AI-POLICY.md` is committed to the repository root
-- [ ] PR template includes a team attribution block
-- [ ] Commit messages carry AI-origin trailers
-- [ ] AI does not appear as git author or co-author
-- [ ] Signed commits enabled (`git config --global commit.gpgsign true`)
-- [ ] Session logs retained (e.g., `.claude/sessions/`) for significant features
-- [ ] AI tool versions documented at the time of each release
-- [ ] Calibration log reviewed before major releases
-- [ ] `git-ai` or equivalent provenance tooling configured
+* Persona file (`CLAUDE.md`, `AGENTS.md`, etc.) defines agent persona and constraints
+* `HUMAN.md` defines human role and review commitments
+* `team-state.md` exists and is updated regularly
+* `AI-POLICY.md` is committed to the repository root
+* PR template includes a team attribution block
+* Commit messages carry AI-origin trailers
+* AI does not appear as git author or co-author
+* Signed commits enabled (`git config --global commit.gpgsign true`)
+* Session logs retained (e.g., `.claude/sessions/`) for significant features
+* AI tool versions documented at the time of each release
+* Calibration log reviewed before major releases
+* `git-ai` or equivalent provenance tooling configured
 
 ---
 
