@@ -1,2 +1,20 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Editor swap files
+*.swp
+*.swo
+*~
+
+# Instance-specific (see templates/README.md)
 docs/team/HUMAN.md
 docs/team/team-state.md
