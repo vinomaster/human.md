@@ -126,7 +126,7 @@ A well-maintained set of these documents is not a compliance exercise. It's a re
 
 ## Attribution
 
-![human-badge](./images/human_md_badge_half.png)
+![human-badge](./images/human_md_badge_notagline.png)
 
 This article was authored under a collaborative human-agent effort:
 
