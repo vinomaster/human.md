@@ -1,11 +1,11 @@
 ---
 layout: default
-title: "Only Humans Should Be Listed as Commit Authors or Co-Authors"
-description: "Legal accountability and copyright clarity in the age of agentic contribution"
+title: "No Ghosts in the Git Log: The Attestation Gap"
+description: "Human accountability in the age of agentic contribution"
 ---
 
-# Only Humans Should Be Listed as Commit Authors or Co-Authors
-### Legal Accountability and Copyright Clarity in the Age of Agentic Contribution
+# No Ghosts in the Git Log: The Attestation Gap
+### Human Accountability in the Age of Agentic Contribution
 
 ---
 
