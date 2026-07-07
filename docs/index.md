@@ -129,6 +129,4 @@ This article was authored under a collaborative human-agent effort:
 * **Collaboration-type:** Human-directed / Human-edited / Agent-researched / Agent-refined
 * **AI-Agent-origins:** Claude Sonnet 5
 
----
 
-*End of draft v3a — ready for refinement.*
