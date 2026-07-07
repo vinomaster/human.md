@@ -507,30 +507,18 @@ SOC2, ISO27001, or pre-IPO audit.
 | Growing startup        | All of above + AI-POLICY.md + team-state.md + session logs          |
 | Enterprise / regulated | All of above + git-ai automated tracking + calibration log review   |
 
-`bootstrap.sh` (see [README.md](./README.md) for usage) maps directly onto
-this table via its `--tier` flag, defaulting to `small-team` since that's the
-tier that captures the actual thesis of this guide — a defined human role,
-not just a commit trailer. Tiers are cumulative: `growing-startup` also
+This repo provides a utility, called `bootstrap.sh` (see [README.md](./README.md) for usage), that maps directly onto this table via its `--tier` flag, defaulting to `small-team` since that's the tier that captures the actual thesis of this guide — a defined human role, not just a commit trailer. Tiers are cumulative: `growing-startup` also
 applies everything `small-team` and `solo` would have.
 
-The script is agentic-IDE-agnostic: `--persona-file` (default `CLAUDE.md`)
-tells it which file to append the agent-attribution note to, so it works
+The utility, a `bash` script, script is agentic-IDE-agnostic: `--persona-file` (default `CLAUDE.md`) tells it which file to append the agent-attribution note to, so it works
 identically whether your tool uses CLAUDE.md, AGENTS.md, `.cursorrules`, or
 something else entirely.
 
-The script never overwrites a file that already exists, so re-running it (or
-moving up a tier later) is safe. The persona file and `README.md` merges are
-skipped, with a note, if those files don't exist yet in the target repo.
-`.gitignore` is the exception: it holds no project prose, so
-`docs/team/HUMAN.md` and `docs/team/team-state.md` are gitignored by creating
-the file if needed rather than skipping — leaving PII-bearing files
+The utility never overwrites a file that already exists, so re-running it (or
+moving up a tier later) is safe. The persona file and `README.md` merges are skipped, with a note, if those files don't exist yet in the target repo. `.gitignore` is the exception: it holds no project prose, so `docs/team/HUMAN.md` and `docs/team/team-state.md` are gitignored by creating the file if needed rather than skipping — leaving PII-bearing files
 untracked-but-not-ignored would defeat the point.
 
-The script doesn't manage lint configuration for the target repo — that's
-none of its business. `commit_template.md` and `pull_request_template.md`
-carry their own `<!-- markdownlint-disable-file MD041 -->` comment for
-teams that do lint their markdown, since neither file is meant to open
-with a heading.
+The utility doesn't manage lint configuration for the target repo — that's none of its business. `commit_template.md` and `pull_request_template.md` carry their own `<!-- markdownlint-disable-file MD041 -->` comment for teams that do lint their markdown, since neither file is meant to open with a heading.
 
 ---
 
