@@ -126,6 +126,8 @@ A well-maintained set of these documents is not a compliance exercise. It's a re
 
 ## Attribution
 
+![human-badge](./images/human_md_badge.png)
+
 This article was authored under a collaborative human-agent effort:
 
 * **Collaboration-type:** Human-directed / Human-edited / Agent-researched / Agent-refined
@@ -133,4 +135,3 @@ This article was authored under a collaborative human-agent effort:
 
 ---
 
-*End of draft v3a — ready for refinement.*

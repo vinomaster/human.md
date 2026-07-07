@@ -1,3 +1,5 @@
+![human-badge](./images/human_md_badge.png)
+
 # human.md
 
 *The personhood half of your CLAUDE.md.*
