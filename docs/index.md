@@ -94,6 +94,8 @@ A well-maintained set of these documents is not a compliance exercise. It's a re
 <a id="appendix-a"></a>
 ## Appendix A: Scenario Matrix
 
+![Scenario Matrix](./images/scenario_matrix.png)
+
 | # | Scenario | US Copyright Office | COPE / ICMJE |
 |---|---|---|---|
 | <a id="scenario-1"></a>1 | Human contributes & attests | Fully copyrightable | Fully valid authorship |
