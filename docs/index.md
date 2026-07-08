@@ -1,11 +1,14 @@
 ---
 layout: default
 title: "No Ghosts in the Git Log: The Attestation Gap"
-description: "Human accountability in the age of agentic contribution"
+description: "Human Accountability in the Age of Agentic Contributions"
 ---
 
 # No Ghosts in the Git Log: The Attestation Gap
-### Human Accountability in the Age of Agentic Contribution
+
+### Human Accountability in the Age of Agentic Contributions
+
+*By Dan Gisolfi · Published July 2026*
 
 ![Trust chain: human directs and reviews, AI agent contributes and discloses, attestation records it, producing a verifiable record](images/trust-chain.png)
 
@@ -130,6 +133,7 @@ A well-maintained set of these documents is not a compliance exercise. It's a re
 
 This article was authored under a collaborative human-agent effort:
 
+* **Author:** Dan Gisolfi
 * **Collaboration-type:** Human-directed / Human-edited / Agent-researched / Agent-refined
 * **AI-Agent-origins:** Claude Sonnet 5
 
