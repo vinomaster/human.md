@@ -110,7 +110,7 @@ A well-maintained set of these documents is not a compliance exercise. It's a re
 <a id="appendix-b"></a>
 ## Appendix B: Attribution Compliance Checklist
 
-*(Enterprise / regulated-industry tier — adapted from the [`human.md`](https://github.com/vinomaster/human.md) methodology referenced in Section 5.)*
+* This checklist pertains to the Enterprise / regulated-industry tier outlined in Section 5 of the the [`human.md` - Methodology](https://github.com/vinomaster/human.md/blob/master/METHODOLOGY.md).*
 
 * Persona file (`CLAUDE.md`, `AGENTS.md`, etc.) defines agent persona and constraints
 * `HUMAN.md` defines human role and review commitments
