@@ -76,6 +76,8 @@ gitignored.
 
 The full reasoning — the asymmetry problem, the "lifeline" concept for tracking how a human-agent collaboration (pairing) matures, and the attribution policy this is all in service of — is in [METHODOLOGY.md](./METHODOLOGY.md). Read that if you want the why; this file is just the how.
 
+For the deeper case — attestation vs. disclosure, the legal grounding in copyright and authorship doctrine, and where AI-attribution tooling is heading — see the whitepaper: [*No Ghosts in the Git Log: The Attestation Gap*](https://vinomaster.github.io/human.md/).
+
 ## Acknowledgement
 
 This project is developed with AI assistance using Claude Code. All
